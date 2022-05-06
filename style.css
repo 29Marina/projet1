@@ -326,13 +326,13 @@ ul {
 
 .heading-wrap p {
   padding-top: 10px;
-  position: relative;
+ /* position: relative; */
   font-size: 1rem;
 }
 
 .heading-wrap p::before {
   content: '';
-  position: absolute;
+  /* position: absolute;*/
   top: -.7rem;
   left: 50%;
   transform: translate(-50%);
@@ -352,7 +352,6 @@ ul {
   background: var(--secondary-color);
   color: #fff;
   padding: 2rem;
-  text-align: center;
 }
 
 .form-info h3 {
@@ -376,7 +375,7 @@ ul {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  margin-right: .5rem;
+  margin-right: 1.5rem;
 }
 
 /* Form input */
@@ -401,7 +400,7 @@ ul {
   font-weight: bold;
   color: #222222;
   line-height: 1.6;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
 }
 
 .form-input input {
