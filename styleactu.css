@@ -1,0 +1,35 @@
+.photocongresh{
+    margin: 10px;
+    height: 300px;
+    width : 400px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px red;
+}
+
+.photocongresv{
+    margin: 10px;
+    height : 400px;
+    width : 300px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px red;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h2 {
+margin-top: 100px;
+text-align: center;
+color: red;
+
+}
+
+p{
+
+    margin: 50px;
+    text-align: center; 
+}
