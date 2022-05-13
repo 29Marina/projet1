@@ -1,10 +1,12 @@
 .adhesion{
     margin-top: 100px;
+    width: 80vw;
 
 }
 
 .containeradhes{
     display: flex;
     justify-content: space-around;
+
 
 }
