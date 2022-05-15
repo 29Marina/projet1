@@ -1,8 +1,6 @@
 /* contact form */
 
 
-@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Source+Sans+Pro&display=swap');
-
 :root {
   --primary-color: #000000;
   --secondary-color: red;
@@ -12,10 +10,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container {
