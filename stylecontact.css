@@ -38,8 +38,6 @@ ul {
   
   margin-bottom: 1.5rem;
   font-size: 2rem;
-  font-family: 'Coda Caption', sans-serif;
-
 }
 
 .heading-wrap p {
@@ -163,6 +161,7 @@ ul {
 }
 
 /* LARGE SCREEN */
+
 @media (min-width: 768px) {
   #heading {
     height: 25rem;
