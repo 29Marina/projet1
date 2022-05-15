@@ -15,8 +15,39 @@ body {
 
 .img{
 
-  width: 60vh;
+  width: 45vh;
+  margin-top: 50px;
 }
+.srcimg{
+    padding-top: 10px;
+    width:80%;
+}
+
+h2{
+    margin: 20px;
+}
+
+h3{
+    margin: 20px;
+}
+
+.containeractu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+}
+
+.srcimgCA{
+    width: 50%;
+    margin: 5px;
+}
+
+.bloc{
+    justify-content: center;
+    
+}
+
 
 header {
     position: absolute;
@@ -27,6 +58,13 @@ header {
     background: #000;
     color: #fff;
     padding: 0 2rem;
+}
+
+.footer{
+    margin-top: 50px;
+    height: 100px;
+    width:100%;
+    filter: blur(3px);
 }
 
 nav {
@@ -50,7 +88,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    width: 550px;
+    width: 670px;
 }
 
 .menu li a {
@@ -65,10 +103,6 @@ nav {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-}
-
-.img {
-    margin-top: 50px;
 }
 
 .btn {
@@ -153,14 +187,6 @@ nav {
     color: #fff;
 }
 
-
-.hero {
-    height: 100vh;
-    background: url('img/hero.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 @media all and (min-width: 769px) {
 
@@ -290,24 +316,23 @@ nav {
   margin-top: 40px;
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  background-color: bisque;
 
 }
 .containeractu2{
   margin-top: 40px;
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  background-color: aquamarine;
-
+}
+p{
+    margin:20px;
 }
 
 }
   
-
   @media (min-width: 768px) {
 
     .containerall{
@@ -319,20 +344,19 @@ nav {
       margin-top: 40px;
       display: flex;
       justify-content: center;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
-      background-color: bisque;
     
     }
     .containeractu2{
       width: 50%;
       margin-top: 40px;
       display: flex;
-      justify-content: center;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
-      background-color: aquamarine;
     
     }
-    
+    p{
+        margin:20px;
+    }
     }
