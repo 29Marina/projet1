@@ -4,19 +4,16 @@
 
 }
 .containertext{
+    height: 150px;
     display: flex;
     margin-top: 100px;
     text-align: center;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
 }
 .containeradhes{
     display: flex;
     justify-content: space-around;
-
-
-}
-
-div{
-    margin-top: 30px;
 }
