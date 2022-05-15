@@ -281,3 +281,58 @@ nav {
     }
 
 }
+
+/* contenu page accueil */
+
+@media (max-width: 768px) {
+
+.containeractu1{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: bisque;
+
+}
+.containeractu2{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: aquamarine;
+
+}
+
+}
+  
+
+  @media (min-width: 768px) {
+
+    .containerall{
+      display:flex;
+    }
+
+    .containeractu1{
+      width: 50%;
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+      background-color: bisque;
+    
+    }
+    .containeractu2{
+      width: 50%;
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+      background-color: aquamarine;
+    
+    }
+    
+    }
