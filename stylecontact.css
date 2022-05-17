@@ -40,6 +40,11 @@ ul {
   font-size: 2rem;
 }
 
+.carte{
+  width: 100%;
+  margin-bottom: -50px;
+}
+
 .heading-wrap p {
   padding-top: 10px;
  /* position: relative; */
