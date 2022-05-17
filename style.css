@@ -15,17 +15,16 @@ body {
 
 .img{
 
-  width: 80vh;
+  width: 40%;
  /* width: 55%;*/
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .srcimg{
-    padding-top: 10px;
     width:80%;
 }
 
 .imgtitre{
-    width:60vh;
+    width:35%;
 }
 
 h2{
@@ -33,7 +32,7 @@ h2{
 }
 
 h3{
-    margin: 20px;
+    margin: 10px;
 }
 
 .containeractu{
@@ -360,7 +359,7 @@ nav {
     @media (max-width: 768px) {
 
         .containeractu1{
-          margin-top: 40px;
+          margin-top: 10px;
           display: flex;
           justify-content: center;
           flex-direction: column;
@@ -368,14 +367,14 @@ nav {
         
         }
         .containeractu2{
-          margin-top: 40px;
+          margin-top: 10px;
           display: flex;
           justify-content:center;
           flex-direction: column;
           align-items: center;
         }
         p{
-            margin:20px;
+            margin:10px;
         }
         
         }
